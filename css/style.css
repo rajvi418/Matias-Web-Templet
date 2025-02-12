@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-between
+{
+    /* display: flex; */
+    justify-content: space-between;
+}
+header
+{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.523);
+}
+.header-navigation{
+    padding: 5px 10px;
+    
+}
+header .header-navigation .logo
+{
+    padding:20px 10px;
+}
+header .header-navigation .navigation{
+    align-content: center;
+    text-align: center;
+}
+header .header-navigation .navigation a
+{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 0px 15px;
+    transition: all 0.5s;
+}
+header .header-navigation .navigation a:hover
+{
+    color: #c9f31d;
+}
+header .header-navigation .more-nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header-navigation .more-nav .lets-talk-btn 
+{
+    border: none;
+    border-radius: 8px;
+    padding: 18px 35px;
+    font-size: 18px;
+    background-color: #c9f31d;
+}
+header .header-navigation .more-nav .menu-btn
+{
+    border: none;
+    padding:14px 20px;
+    padding-bottom: 22px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
