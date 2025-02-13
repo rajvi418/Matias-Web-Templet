@@ -80,29 +80,68 @@ header .header-navigation .more-nav .menu-btn {
 }
 .header-section
 {
-    border: 2px solid red;
     padding: 15px;
     background-image: url("../img/header-background.png");
     background-attachment: fixed;
 }
-.header-section .side-content
+.header-contain
 {
-    border: 1px solid red;
-    text-transform: uppercase;
-}
-.header-section .side-content p {
-    
-    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
 }
 .header-section .bn-top
 {
     border-bottom: 2px solid #ffffff;
-
+    width: fit-content;
+    transition: all 0.3s;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
 }
-.header-section .bn-top a span
+.header-section div a .bn-top span
 {
     padding: 15px 0px;
     font-size: 24px;
     color: #ffffff;
+    transition: all 0.3s;
     line-height: 35px;
+}
+.header-section div a:hover .bn-top span , .header-section .bn-top:hover
+{
+    color: #c9f31d;
+    border-color: #c9f31d;
+}
+.header-section .creative-designs
+{
+    font-size: 65px;
+    line-height: 120px;
+    font-weight: 600;
+    margin-bottom: 50px;    
+}
+.header-section .banner-bottom
+{
+    align-content: center;
+}
+.header-section .banner-bottom div
+{
+    padding: 15px;
+    align-content: center;
+}
+.header-section .banner-bottom .circle-outline
+{
+    border-radius: 500px;
+    border: 2px solid #ffffff;
+    padding: 30px;
+}
+.header-section .banner-bottom .play-btn .circle-outline .fa-play
+{
+    color: white;
+}
+.header-section .banner-bottom .banner-text
+{
+    font-size: 20px;
+    line-height: 35px;
+}
+.header-section .left-banner-contain
+{
+    padding-top: 160px;
 }
