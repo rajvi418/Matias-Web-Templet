@@ -208,3 +208,36 @@ header .header-navigation .more-nav .menu-btn {
 .intro-btn a {
     color: #ffffff;
 }
+
+.personal-information
+{
+    background-image: url("../img/blackbackground-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.personal-information .personal-info-img 
+{
+    padding: 15px;
+}
+.personal-information .personal-info-content
+{
+    padding: 15px;
+}
+.personal-information .personal-info-content .per-info-para 
+{
+    padding-right: 0px;
+
+}
+.personal-information .personal-info-content .per-info-para h1
+{
+    font-size: 42px;
+}
+.personal-information .personal-info-content .per-info-para p
+{
+    font-size: 18px;
+    color: #999999;
+}
