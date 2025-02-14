@@ -78,70 +78,133 @@ header .header-navigation .more-nav .menu-btn {
     display: flex;
     align-items: center;
 }
-.header-section
-{
+
+.header-section {
     padding: 15px;
+    padding-bottom: 0;
     background-image: url("../img/header-background.png");
     background-attachment: fixed;
 }
-.header-contain
-{
+
+.header-contain {
     display: flex;
     justify-content: center;
+    padding-top: 80px;
 }
-.header-section .bn-top
-{
+
+.header-section .bn-top {
     border-bottom: 2px solid #ffffff;
     width: fit-content;
     transition: all 0.3s;
     padding-bottom: 15px;
     margin-bottom: 50px;
 }
-.header-section div a .bn-top span
-{
+
+.header-section div a .bn-top span {
     padding: 15px 0px;
     font-size: 24px;
     color: #ffffff;
     transition: all 0.3s;
     line-height: 35px;
 }
-.header-section div a:hover .bn-top span , .header-section .bn-top:hover
-{
+
+.header-section div a:hover .bn-top span,
+.header-section .bn-top:hover {
     color: #c9f31d;
     border-color: #c9f31d;
 }
-.header-section .creative-designs
-{
+
+.header-section .creative-designs {
     font-size: 65px;
     line-height: 120px;
     font-weight: 600;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
 }
-.header-section .banner-bottom
-{
+
+.header-section .banner-bottom {
     align-content: center;
 }
-.header-section .banner-bottom div
-{
+
+.header-section .banner-bottom div {
     padding: 15px;
     align-content: center;
 }
-.header-section .banner-bottom .circle-outline
-{
+
+.header-section .banner-bottom .circle-outline {
     border-radius: 500px;
     border: 2px solid #ffffff;
     padding: 30px;
 }
-.header-section .banner-bottom .play-btn .circle-outline .fa-play
-{
+
+.header-section .banner-bottom .play-btn .circle-outline .fa-play {
     color: white;
 }
-.header-section .banner-bottom .banner-text
-{
+
+.header-section .banner-bottom .banner-text {
     font-size: 20px;
     line-height: 35px;
 }
-.header-section .left-banner-contain
-{
+
+.header-section .left-banner-contain {
     padding-top: 160px;
+}
+
+.marquee-section {
+    background-color: #c9f31d;
+    padding: 20px;
+    align-content: center;
+}
+
+.marquee-text {
+    border: none;
+}
+
+/* Introdction Section */
+.about-section {
+    border: 2px solid red;
+    padding: 120px 0px;
+}
+
+.about-section .introduction-section {
+    border: 2px solid green;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.about-section .introduction-section .intro-img {
+    margin-bottom: 30px;
+}
+
+.about-section .introduction-section .intro-paragragh p {
+    font-size: 38px;
+    font-weight: 400;
+    padding: 0px 85px;
+    line-height: 63px;
+    margin-bottom: 60px;
+}
+.about-section .introduction-section .intro-more-btns{
+    padding: 0px 400px;
+}
+.about-section .introduction-section .intro-more-btns button {
+    padding: 16px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+}
+
+.intro-about {
+    background-color: #c9f31d;
+}
+
+.intro-about a {
+    color: #000;
+}
+.intro-btn {
+    background-color: #1d1d1d;
+}
+
+.intro-btn a {
+    color: #ffffff;
 }
