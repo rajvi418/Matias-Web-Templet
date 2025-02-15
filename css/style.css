@@ -14,6 +14,11 @@ a {
     text-decoration: none;
 }
 
+.mx-auto {
+    width: 100%;
+    margin: auto;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -244,30 +249,53 @@ header .header-navigation .more-nav .menu-btn {
     color: #999999;
 }
 
-.box-1 , .box-2 {
+.personal-info-content .box-1,
+.box-2 {
     padding: 38px 24px;
     background-color: #1d1d1d;
     border-radius: 10px;
     margin-bottom: 24px;
 }
-.box-1
-{
+
+.personal-info-content .box-1 {
     padding-right: 150px;
 }
-.box-2
-{
+
+.personal-info-content .box-2 {
     padding-right: 190px;
 
 }
-.box-1 h4{
+
+.personal-info-content .box-1 h4 {
     font-size: 18px;
     color: #999999;
     font-weight: 400;
     margin-bottom: 20px;
 }
-.box-2 h4 {
+
+.personal-info-content .box-2 h4 {
     font-size: 18px;
     color: #999999;
     font-weight: 400;
     margin-bottom: 20px;
+}
+
+.awards-section {
+    padding: 120px 0px;
+    background-image: url("../img/blackbackground-2.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.dummy-class {
+    border-bottom: 2px solid grey;
+    padding: 30px;
+}
+
+.dummy-class1 {
+    border-bottom: 2px solid grey;
+    padding: 30px;
 }

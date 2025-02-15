@@ -1,0 +1,19 @@
+    <section class="awards-section mx-auto">
+        <div class="col-xl-12">
+            <div class="col-xl-1"></div>
+            <div class="col-xl-10 mx-auto">
+                <div class="row justify-between">
+                    <div class="award-heading">
+                    <div class="row justify-between">
+                        <div class="">
+                            <h1>Our Award</h1>
+                        </div>
+                        <div class="">
+                            <h5>View My Work</h5>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-1"></div>
+        </div>
