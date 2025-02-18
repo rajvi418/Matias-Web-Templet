@@ -24,9 +24,26 @@ a {
     flex-wrap: wrap;
 }
 
+/* Text Alignment */
+.ta-left {
+    text-align: left;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+.ta-right {
+    text-align: right;
+}
+/* Alignment */
 .justify-between {
     /* display: flex; */
     justify-content: space-between;
+}
+.content-center
+{
+    align-content: center;
 }
 
 header {
@@ -281,7 +298,7 @@ header .header-navigation .more-nav .menu-btn {
 }
 
 .awards-section {
-    padding: 120px 0px;
+    padding: 120px 90px;
     background-image: url("../img/blackbackground-2.png");
     background-repeat: no-repeat;
     display: flex;
@@ -290,12 +307,27 @@ header .header-navigation .more-nav .menu-btn {
     background-size: cover;
 }
 
-.dummy-class {
-    border-bottom: 2px solid grey;
-    padding: 30px;
+.award-title {
+    border-bottom: 1px solid grey;
+    padding: 30px 0px;
+    font-size: 42px;
+    font-weight: 400;
 }
 
-.dummy-class1 {
-    border-bottom: 2px solid grey;
-    padding: 30px;
+.award-title .my-work {
+    font-size: 18px;
+    font-weight: 400;
+    color: #c9f31d;
+}
+
+.awarad-detail {
+    border-bottom: 1px solid grey;
+    padding: 30px 0px;
+    font-size: 24px;
+    font-weight: 100;
+}
+.ta-center-new
+{
+
+    padding-right: 70px;
 }
