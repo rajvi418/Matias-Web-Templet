@@ -5,6 +5,7 @@
 }
 
 body {
+    scroll-behavior: smooth;
     background-color: black;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -12,6 +13,16 @@ body {
 
 :root {
     --yellowgreen: #c9f31d;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c9f31d;
+    border-radius: 10px;
 }
 
 /* Borders */
@@ -471,13 +482,13 @@ header .header-navigation .more-nav .menu-btn {
     font-size: 30px;
     text-transform: capitalize;
 }
-.projects-bottom-btn
-{
+
+.projects-bottom-btn {
     display: flex;
     justify-content: center;
-    /* padding: 30px 0px; */
     transition: all 1s;
 }
+
 .projects-bottom-btn .more-projects-button {
     height: 210px;
     width: 210px;
@@ -487,6 +498,7 @@ header .header-navigation .more-nav .menu-btn {
     background-color: var(--yellowgreen);
     position: relative;
     z-index: 1;
+    transition: all 0.5s;
 }
 
 .projects-bottom-btn .more-projects-button svg {
@@ -494,8 +506,8 @@ header .header-navigation .more-nav .menu-btn {
     display: block;
     margin-bottom: 10px;
 }
-.projects-bottom-btn .more-projects-button  span
-{
+
+.projects-bottom-btn .more-projects-button span {
     font-size: 18px;
 }
 
@@ -509,8 +521,58 @@ header .header-navigation .more-nav .menu-btn {
     z-index: -1;
     bottom: -10px;
     left: -10px;
+    transition: all 0.5s;
 }
+
 .projects-bottom-btn .more-projects-button:hover::before {
-    position: absolute;
-    top: -10px;
+    bottom: 10px;
+}
+
+.project-need {
+    background-image: url('../img/blackbackground-2.png');
+    padding: 60px 0px;
+    background-position-x: center;
+    background-size: cover;
+}
+
+.project-need-title {
+    text-align: left;
+    margin-bottom: 24px;
+    width: fit-content;
+}
+
+.yellowgreen-dash-left {
+    font-size: 24px;
+    color: var(--yellowgreen);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.yellowgreen-dash-left::before {
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: var(--yellowgreen);
+}
+
+.project-need-desciption {
+    padding: 50px 0px;
+    border-bottom: 1px solid rgb(38,37,37);
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.project-need-desciption .project-need-heading h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 100;
+}
+.peoject-need-email-icon {
+    padding: 28px;
+    background-color: #c9f31d;
+    border-radius: 100px;
+    font-size: 24px;
+    color: #000;
+    margin-right: 15px;
 }
